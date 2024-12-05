@@ -29,3 +29,5 @@ jobs:
           author_email: github-actions[bot]@users.noreply.github.com
           message: "chore: update snake animation"
           add: "dist/github-contribution-grid-snake.svg"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
